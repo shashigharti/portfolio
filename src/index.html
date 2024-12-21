@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="It is a personal website">    
+    <meta name="keywords" content="personal info, software projects, academic info">
+    <meta name="robots" content="noindex, nofollow">
+        
+    <title>Personal Page</title>
+
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  </head>
+  <body>  
+    <div class="container header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.pdf">CV</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>  
+    <div class = "container description">
+      <div class="row">
+        <div class="container__left col-lg-3 col-md-3 col-sm-12">
+          <section class="containter__info organization">
+            <h2> Shashi Gharti </h2>
+            ML Engineer, @Omdena<br />
+            @AileenHealth @OKFN (Prev)<br />
+            Kathmandu, Nepal<br />
+            <nav  class="links" aria-label="Social Media Links">
+              <a href="mailto:shashi.gharti@gmail.com" aria-label="website" target="_blank">
+                <i class="bi bi-envelope"></i>
+              </a>
+              <a href="https://github.com/shashigharti" aria-label="Github" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </nav>
+          </section>          
+          <section class="containter__info education">
+            <h3>Education</h3>
+            MSc, Computer Science <br />
+            Asian Institute of Technology <br />
+            Thailand
+          </section>
+          <section class = "containter__info skills">
+            <h3>Skills</h3>
+            <div class="skills__body">
+             Python, PHP, Javascript, React, Pytorch, OpenCV, Laravel, Django, Devops, Computer Vision, FastAPI, AirFlow, 
+             Object Detection and Segmentation
+            </div>      
+          </section>
+        </div>
+        <div class="container__right col-lg-9 col-md-9 col-sm-12">
+          <section class = "container__about">
+            <p class="container__about--info">
+              I am a fullstack developer with experience in machine learning. I enjoy the process of designing the architecture and 
+              implementation(coding) of the software application development process. Besides software development, I have experience 
+              in machine learning focused in areas of object detection and segmentation which has sparked my interest in research 
+              within the field of machine learning. I am eager to explore the application of machine learning in climate change and 
+              remote sensing. Additionally, I also have keen interest in Explainable AI, Domain Generalization and architectural 
+              aspects related to machine learning.
+              
+              <br />
+              <br />
+              I enjoy learning through both reading and traveling. And I find peace and inspiration in Nature.
+            </p>
+          </section>
+          <section class = "container__projects">
+            <h2 class="text-center">Publications</h2>
+            <div class="row">
+              <ul class="publications list-group">
+                <li class="publications__item list-group-item">
+                  <i class="bi bi-arrow-right"> </i>Co-author, "Automatic Suspicious Behavior Detection from a Small Bootstrap Set,"
+                  Proceedings of the International Conference on Computer Vision Applications (VISAPP),
+                  2012.
+                </li>
+                <li class="publications__item list-group-item">
+                  <i class="bi bi-arrow-right"></i> Co-author, "Incremental Behavior Modeling and Suspicious Activity Detection,"
+                  published in the Journal of Pattern Recognition, 2013.
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class = "container__projects">
+            <h2 id="projects" class="text-center">Projects</h2>
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-ml-tab" data-bs-toggle="tab" data-bs-target="#nav-ml" type="button" role="tab" aria-controls="nav-ml" aria-selected="true">Machine Learning & AI</button>
+                <button class="nav-link" id="nav-sd-tab" data-bs-toggle="tab" data-bs-target="#nav-sd" type="button" role="tab" aria-controls="nav-sd" aria-selected="false">Software Development</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-ml" role="tabpanel" aria-labelledby="nav-ml-tab">
+               <div class="container">
+                  <div class="row project">
+                    <img class="project__image col-lg-2 col-md-2 col-sm-12" src="assets/images/interferogram.png">
+                    <section class="project__block col-lg-10 col-md-10 col-sm-12">
+                      <div class="project__title">
+                        Disaster Monitoring System (Contd.), Omdena, 2024
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Computer Vision</span>
+                          <span class="badge rounded-pill text-bg-info">Satellite Image Processing</span>
+                          <span class="badge rounded-pill text-bg-info">Impact Assessment(Earthquake) </span>
+                        </div>
+                      </div>                   
+                      <div class="project__body">
+                        <p>In this project, we are currently working on building pipeline for disaster monitoring and real-time 
+                          data analysis features for post-disaster impact mitigation. </p>                     
+                      </div>
+                    </section>
+                  </div>
+                  <div class="row project">
+                    <img class="project__image col-lg-2 col-md-2 col-sm-12" src="assets/images/nma_RF.png">
+                    <section class="project__block col-lg-10 col-md-10 col-sm-12">
+                      <div class="project__title">
+                        Decoding Cortical Activations, Neuromatch Match Academy(NMA), 2024
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Object Detection</span>
+                          <span class="badge rounded-pill text-bg-info">Segmentation</span>
+                          <span class="badge rounded-pill text-bg-info">Computer Vision</span>
+                          <span class="badge rounded-pill text-bg-info">fMRI</span>
+                          <span class="badge rounded-pill text-bg-info">GBR</span>
+                          <span class="badge rounded-pill text-bg-info">Deep Learning</span>
+                          <span class="badge rounded-pill text-bg-info">CNN</span>
+                        </div>
+                      </div>                   
+                      <div class="project__body">
+                        <p>This was a group project as part of NMA(Neuromatch Academy) course, where we replicated the work of Kay and colleagues by
+                          applying machine learning techniques to train a receptive field encoding model to predict brain activity.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="row project">
+                    <img class="project__image col-md-2 col-sm-12" src="assets/images/armworms-damage-assessment.png">
+                    <section class="project__block col-md-10 col-sm-12">
+                      <div class="project__title">
+                        Armyworm Impact Analysis, Omdena, 2021
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Object Detection</span>
+                          <span class="badge rounded-pill text-bg-info">Segmentation</span>
+                          <span class="badge rounded-pill text-bg-info">Computer Vision</span>
+                          <span class="badge rounded-pill text-bg-info">RCNN</span>
+                          <span class="badge rounded-pill text-bg-info">U-NET</span>
+                          <span class="badge rounded-pill text-bg-info">Satellite Image Processing</span>
+                          <span class="badge rounded-pill text-bg-info">Deep Learning</span>
+                          <span class="badge rounded-pill text-bg-info">CNN</span>
+                        </div>
+                      </div>
+                      <div class="project__body">
+                        <p>We trained various object detection models including RCNN and U-NET to analyze satellite images for damage caused by army worms. </p>
+                        <nav  class="links" aria-label="Social Media Links">
+                          <a href="https://www.omdena.com/projects/armyworms-assessment" aria-label="website" target="_blank">
+                              <i class="bi bi-globe"></i>
+                          </a>
+                      </nav>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="seemore text-center">
+                    <a href="ml.html" class="text-info">
+                      See More...
+                    </a>
+                  </div>
+               </div>
+              </div>
+              <div class="tab-pane fade" id="nav-sd" role="tabpanel" aria-labelledby="nav-sd-tab">
+                <div class="container">
+                  <div class="row project">
+                    <img class="project__image col-lg-2 col-md-2 col-sm-12" src="assets/images/frictionless-py-thumbnail.png">
+                    <section class="project__block col-lg-10 col-md-10 col-sm-12">
+                      <div class="project__title">
+                        Frictionless Py, Open Knowledge Foundation(OKFN), 2023-2024
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Python</span>
+                          <span class="badge rounded-pill text-bg-info">FastAPI</span>
+                          <span class="badge rounded-pill text-bg-info">Opendata</span>
+                        </div>
+                      </div>                   
+                      <div class="project__body">
+                        <p>Frictionless-py is a data management framework for Python that provides functionality to describe, extract, 
+                          validate, and transform tabular data.
+                        </p>
+                        <nav class="links" aria-label="Social Media Links">
+                          <a href="https://framework.frictionlessdata.io/" aria-label="website" target="_blank">
+                            <i class="bi bi-globe2"></i>
+                          </a>
+                          <a href="https://github.com/frictionlessdata/frictionless-py" aria-label="Github" target="_blank">
+                            <i class="bi bi-github"></i>
+                          </a>
+                        </nav>
+                      </div>
+                    </section>
+                  </div> 
+                  <div class="row project">
+                    <img class="project__image col-lg-2 col-md-2 col-sm-12" src="assets/images/ode-thumbnail.png">
+                    <section class="project__block col-lg-10 col-md-10 col-sm-12">
+                      <div class="project__title">
+                        OpenData Editor,  Open Knowledge Foundation(OKFN), 2024
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Python</span>
+                          <span class="badge rounded-pill text-bg-info">React</span>
+                          <span class="badge rounded-pill text-bg-info">FastAPI</span>
+                          <span class="badge rounded-pill text-bg-info">Opendata</span>
+                        </div>
+                      </div>                   
+                      <div class="project__body">
+                        <p>Open Data Editor is an open source tool for non-technical data users to clean and process data before publishing.</p>
+                        <nav class="links" aria-label="Social Media Links">
+                          <a href="https://opendataeditor.okfn.org/" aria-label="website" target="_blank">
+                            <i class="bi bi-globe2"></i>
+                          </a>
+                          <a href="https://github.com/okfn/opendataeditor" aria-label="Github" target="_blank">
+                            <i class="bi bi-github"></i>
+                          </a>
+                        </nav>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="row project">
+                    <img class="project__image col-lg-2 col-md-2 col-sm-12" src="assets/images/ckan.png">
+                    <section class="project__block col-lg-10 col-md-10 col-sm-12">
+                      <div class="project__title">
+                        Opendata Editor,  CKAN(OKFN), 2024
+                        <div class="tags">
+                          <span class="badge rounded-pill text-bg-info">Python</span>
+                          <span class="badge rounded-pill text-bg-info">Flask</span>
+                          <span class="badge rounded-pill text-bg-info">Opendata</span>
+                        </div>
+                      </div>                   
+                      <div class="project__body">
+                        <p>Ckan is an open-source DMS(data management system) for powering data hubs and data portals.</p>
+                        <nav class="links" aria-label="Social Media Links">
+                          <a href="https://ckan.org/" aria-label="website" target="_blank">
+                            <i class="bi bi-globe2"></i>
+                          </a>
+                          <a href="https://github.com/ckan/ckan" aria-label="Github" target="_blank">
+                            <i class="bi bi-github"></i>
+                          </a>
+                        </nav>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="seemore text-center">
+                    <a href="software.html" class="text-info">
+                      See More...
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </section>   
+        </div>
+      </div>     
+    </div>    
+    <footer>
+      <div class="container">
+        <!-- Footer content goes here -->
+      </div>
+    </footer>
+    <script type="module" src="./assets/js/index.js"></script>
+  </body>
+</html>

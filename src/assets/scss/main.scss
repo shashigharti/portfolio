@@ -1,0 +1,42 @@
+.container__about--info{
+    text-align: justify;
+}
+
+.containter__info {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project__image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px dotted green;
+}
+
+.project__body {
+    text-align: justify;
+}
+
+.project__title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    .tags {
+        font-size: .9rem;
+    }
+}
+
+.seemore a{
+    font-size: .9rem;
+}
+
+.container__left, .container__right{
+    margin-top: 30px;
+}
+
+.list-group-item {
+    border: none;
+}
