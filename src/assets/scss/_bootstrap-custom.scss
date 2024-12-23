@@ -1,5 +1,5 @@
-@import "~/bootstrap/scss/bootstrap";
-@import "./bootstrap-icons";
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
 
 $headings-font-family: Arial, sans-serif;
 $hover-color: #0DCAEF;
@@ -35,16 +35,18 @@ h3 {
         color: $hover-color;
     }
 }
+
 .nav {
     .nav-link {        
         font-weight: bold;
         color: $black;
-        &.active{
+        &.active {
             color: $hover-color;
         }
     }
 }
-.links{
+
+.links {
     overflow: hidden;
     a { 
         float: left;
