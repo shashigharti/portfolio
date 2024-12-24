@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
-  base: '/shashigharti.github.io/',
   root: './src',
   server: {
     port: 3000,
