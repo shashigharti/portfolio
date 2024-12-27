@@ -1,11 +1,22 @@
 @import url('./_bootstrap-custom.scss');
 
-.container__about--info{
+.container__left {
+    .skills__body {
+        text-align: justify;
+    }
+}
+
+.container__about--info {
     text-align: justify;
 }
 
 .containter__info {
     margin-bottom: 10px;
+}
+
+.container__posts {
+    .post {
+    }
 }
 
 .project {
